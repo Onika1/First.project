@@ -1,0 +1,79 @@
+nav {
+        height: 100px;
+        width: 100px;
+        display: flex;
+        flex-direction: row; 
+}
+
+ul {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        list-style: none;
+        background-color: rgb(67, 146, 211);
+        align-items: center;
+        border-style: solid;
+        border-left: 0;
+        border-right: 0;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        position: fixed;
+        left: 100px;
+        right: 100px;
+        height: 60px;      
+}
+
+.logo {
+    background-color: rgb(175, 240, 56);
+    border-radius: 10px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    transition: 1.25s;
+    cursor: cell; 
+}
+
+.logo:hover {
+    background-color: rgb(234, 247, 58); 
+}
+
+.logo:active {
+        background-color: rgb(214, 112, 159);
+        transition: 5s;
+}
+
+.join {
+        background-color: rgb(245, 68, 68);
+        border-radius: 10px;
+        border-style: solid;
+        height: 100px;
+        width: 100px;
+        cursor: cell;
+        position: fixed;
+        right: 0px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+}
+
+.join:hover {
+        opacity: 0.8;
+}
+
+body {
+        background-color: rgb(94, 90, 90);
+}
+
+header {
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+}
+
+a:link {
+        text-decoration: none;
+        cursor: cell;
+    }
